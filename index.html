@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+<title>cows_moo</title>
 <style>
 h1{
  font-family: segoe script;
@@ -49,7 +49,8 @@ main{
 }
   
 </style>
-</head>
+
+	</head>
 <body>
 <header>
   <h1>moonicorn</h1>
@@ -93,8 +94,64 @@ main{
   
   
 <script>
-  //
+  document.querySelector("#moo").addEventListener("change", function(event){
+	console.log(event.target.value)
+	
+})
   
 </script>
 </body>
 </html>
+
+	
+<html>
+<head>
+<style>
+h1{
+ font-family: segoe script;
+	
+}
+html, body {
+  min-height: 100%;
+  padding: 0;
+	margin: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+header{
+  color: rgb(0, 0, 0,); 
+  background-color:rgb(18, 187, 206);
+  text-align: center;
+}
+footer{
+  background-color: #010306;
+  padding: 3px;
+  text-align: center;
+  color: white;
+  clear: both;
+}
+aside{
+	margin: 10px;
+  background-color:rgb(134, 220, 239);
+  flex: 1;
+	border: rgb(172, 175, 175) solid 5px;
+  text-align: center;
+}
+section{
+	margin:10px;
+  background-color: white;
+  flex: 4;
+	border: rgb(172, 175, 175) solid 5px;
+	text-align: center;
+}
+main{
+  background-color: white;
+  display: flex;
+  flex: 1;
+}
+  
+</style>
+	
+	
