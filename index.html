@@ -67,7 +67,7 @@ main{
   </aside>
   <section>
 		  <div> <select id="moo">
-   <option>moonicorn</option>
+   <option value="index">moonicorn</option>
    <option>mooasus</option>
    <option>narwhal</option>
 		<option>kitticorn</option>
@@ -96,6 +96,7 @@ main{
 <script>
   document.querySelector("#moo").addEventListener("change", function(event){
 	console.log(event.target.value)
+	  window.location = "https://v-divey.github.io/moonicorn/" + event.target.value;
 	
 })
   
