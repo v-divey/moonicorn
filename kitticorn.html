@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+h1{
+ font-family: segoe script;
+	
+}
+html, body {
+  min-height: 100%;
+  padding: 0;
+	margin: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+header{
+  color: rgb(0, 0, 0,); 
+  background-color:rgb(18, 187, 206);
+  text-align: center;
+}
+footer{
+  background-color: #010306;
+  padding: 3px;
+  text-align: center;
+  color: white;
+  clear: both;
+}
+aside{
+	margin: 10px;
+  background-color:rgb(134, 220, 239);
+  flex: 1;
+	border: rgb(172, 175, 175) solid 5px;
+  text-align: center;
+}
+section{
+	margin:10px;
+  background-color: white;
+  flex: 4;
+	border: rgb(172, 175, 175) solid 5px;
+	text-align: center;
+}
+main{
+  background-color: white;
+  display: flex;
+  flex: 1;
+}
+  
+</style>
+</head>
+<body>
+<header>
+  <h1>kitticorn</h1>
+  </header>
+<main>
+  <aside>
+		<img src="https://lh3.googleusercontent.com/-fba2Kx7LOp8/WjRMB7t-VBI/AAAAAAAAAn8/M0ZOfoR42AYXPp6g4auZSQVap2HyHciTgCL0BGAYYCw/h1280/4ae0940b-6dda-4580-8a0e-708de0117682" width="150px"/>
+		<div>My favorite thing to do is CODE!!!!!!!</div>  
+		<div> I live in Utah, I love the snow! I love snowmobiling! I love all the mountains!</div>
+		<div> I coded this whole website, I didn't even use a tmplate, because of how much I love coding!</div>
+		<span><img src="https://greatlakesgazette.files.wordpress.com/2010/01/cow_0775.jpg" width="100px" /></span>
+		<span><img src="http://3.bp.blogspot.com/-GL-JfPHCj3I/Tb_zrNTOZbI/AAAAAAAAABw/X8BByO04uSY/s1600/Eastern+Europe+Unicorn.jpg"width="70px"/></span>
+	<div> see I told you I love cows!!!!!!! and unicorns!!!!!! Mix them together and you get a moonicorn just like me... B.T.W. CODE IS AWESOME!!!!!!!!!!!!!!!  I will try to keep you updated about moonicorns, narwhals, bunsuses, kittcorns, and last but definitly not least mooasuses!!!!! </div>
+  </aside>
+  <section>
+		  <div> <select id="moo">
+   <option value="index">moonicorn</option>
+   <option>mooasus</option>
+   <option>narwhal</option>
+		<option selected>kitticorn</option>
+		</select> </div> 
+    <img src="https://i.pinimg.com/736x/c3/3f/fa/c33ffac80ec16553ec8694b6b4617667.jpg" width="200px"/>
+    <div> This is a kitticorn, they are always ADORABLE. </div>
+    <div> I would put a sign for a KITTICORN, but I haven't drawn one sadly. </div>
+			<div>When I draw the sign on my friends wrist, It does wash out over time (luckily) if not, it would be a real tattoo!!!!!!!</div>
+			<div> okay.........</div>
+  </section>
+</main>
+<footer>
+  v-divey
+</footer>
+  
+  
+<script>
+  document.querySelector("#moo").addEventListener("change", function(event){
+	console.log(event.target.value)
+	window.location = "https://v-divey.github.io/moonicorn/" + event.target.value;
+})
+  
+</script>
+</body>
+</html>
